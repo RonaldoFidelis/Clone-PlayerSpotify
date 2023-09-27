@@ -1,0 +1,15 @@
+/* Personaliza a cor da barra de rolagem */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #777777;
+  border-radius: 5px;
+}
