@@ -3,23 +3,23 @@ import { Home, Search, Library, Plus, ChevronDown, ArrowRight } from 'lucide-rea
 const musics = [
   {
     name: 'Músicas Curtidas',
-    icon: '../../public/img/curtidas.jpeg',
+    icon: 'img/curtidas.jpeg',
     playlist: 'Favoritas',
   }, {
     name: 'Funks Hits',
-    icon: '../../public/img/funk.jpeg',
+    icon: 'img/funk.jpeg',
     playlist: 'Hits',
   }, {
     name: 'MPB',
-    icon: '../../public/img/mpb.jpg',
+    icon: 'img/mpb.jpg',
     playlist: 'mais tocadas',
   }, {
     name: 'Frank Sinatra',
-    icon: '../../public/img/franksinatra.jpg',
+    icon: 'img/franksinatra.jpg',
     playlist: 'Artista',
   }, {
     name: 'Lil Whind',
-    icon: '../../public/img/lilwhind.jpg',
+    icon: 'img/lilwhind.jpg',
     playlist: 'Artista',
   }]
 

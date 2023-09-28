@@ -5,22 +5,22 @@ import Cards from './Cards';
 
 const myPrograms = [
   {
-    img: '../../public/img/cienciasemfim.jpg',
+    img: 'img/cienciasemfim.jpg',
     name: 'Ciência Sem Fim',
     desc: 'Estúdios Flow'
   },
   {
-    img: '../../public/img/podpah.jpeg',
+    img: 'img/podpah.jpeg',
     name: 'PodPah',
     desc: 'Igão e Mitico'
   },
   {
-    img: '../../public/img/flow.jpg',
+    img: 'img/flow.jpg',
     name: 'Flow Podcast',
     desc: 'Estúdios Flow'
   },
   {
-    img: '../../public/img/rocket.png',
+    img: 'img/rocket.png',
     name: 'Rocketseat',
     desc: 'Programação'
   },
@@ -28,22 +28,22 @@ const myPrograms = [
 
 const playerRecente = [
   {
-    img: '../../public/img/joaogomes.jpg',
+    img: 'img/joaogomes.jpg',
     name: 'João Gomes',
     desc: 'Piseiro'
   },
   {
-    img: '../../public/img/Eminem.png',
+    img: 'img/Eminem.png',
     name: 'Eminem',
     desc: 'Rap'
   },
   {
-    img: '../../public/img/franksinatra.jpg',
+    img: 'img/franksinatra.jpg',
     name: 'Frank Sinatra',
     desc: 'Mix jazz'
   },
   {
-    img: '../../public/img/israel.jpeg',
+    img: 'img/israel.jpeg',
     name: 'Israel Kamakawiwo',
     desc: 'God vibe'
   },

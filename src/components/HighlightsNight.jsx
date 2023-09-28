@@ -1,22 +1,22 @@
 const highlights = [
   {
-    img: '../../public/img/cienciasemfim.jpg',
+    img: 'img/cienciasemfim.jpg',
     name: 'Ciência Sem fim'
   },
   {
-    img: '../../public/img/nerdcast.jpeg',
+    img: 'img/nerdcast.jpeg',
     name: 'Nerd Cast'
   },
   {
-    img: '../../public/img/rocket.png',
+    img: 'img/rocket.png',
     name: 'Rocketseat'
   },
   {
-    img: '../../public/img/flow.jpg',
+    img: 'img/flow.jpg',
     name: 'Flow Podcast'
   },
   {
-    img: '../../public/img/codfonte.jpeg',
+    img: 'img/codfonte.jpeg',
     name: 'Código Fonte TV'
   },
 ]
