@@ -5,7 +5,7 @@ import HighlightsNight from './HighlightsNight';
 function Main() {
 
   return (
-    <main className="flex flex-col flex-1 p-6 rounded-lg bg-main">
+    <main className="flex flex-col flex-1 rounded-lg bg-main p-3">
       <nav className='sticky top-0 min-w-full shadow-md px-2'>
           <div className='flex flex-row items-center justify-between'>
             <div className='flex items-center gap-5'>
@@ -24,7 +24,7 @@ function Main() {
         </nav>
       <div className='h-main-card max-w-screen-lg overflow-y-hidden hover:overflow-y-scroll'>
         <HighlightsNight />
-        
+
       </div>
     </main>
   )
