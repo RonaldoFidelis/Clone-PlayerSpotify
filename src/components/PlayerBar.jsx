@@ -13,7 +13,7 @@ function PlayerBar() {
       </div>
       <div className='mt-2 flex flex-row items-center justify-center gap-2'>
         <p className='text-xs text-font font-normal'>0:02</p>
-        <div className='w-playerBar bg-font rounded-md h-1'></div>
+        <input type="range" className="w-playerBar h-1 cursor-pointer" />
         <p className='text-xs text-font font-normal'>3:20</p>
       </div>
     </div>
