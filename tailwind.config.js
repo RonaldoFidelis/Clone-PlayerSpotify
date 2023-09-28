@@ -15,7 +15,7 @@ export default {
         "font":"#777777"
       },
       height: {
-        "main-card":"450px"
+        "main-card":"500px"
       },
       width: {
         'highlights':'295px'

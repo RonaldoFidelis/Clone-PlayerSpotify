@@ -1,24 +1,22 @@
-import capa from '../../public/img/Eminem.png'
-
 const highlights = [
   {
-    img: capa,
+    img: '../../public/img/cienciasemfim.jpg',
     name: 'Ciência Sem fim'
   },
   {
-    img: capa,
+    img: '../../public/img/nerdcast.jpeg',
     name: 'Nerd Cast'
   },
   {
-    img: capa,
+    img: '../../public/img/rocket.png',
     name: 'Rocketseat'
   },
   {
-    img: capa,
+    img: '../../public/img/flow.jpg',
     name: 'Flow Podcast'
   },
   {
-    img: capa,
+    img: '../../public/img/codfonte.jpeg',
     name: 'Código Fonte TV'
   },
 ]

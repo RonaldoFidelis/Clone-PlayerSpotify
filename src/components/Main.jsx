@@ -1,29 +1,52 @@
 import { ChevronLeft, ChevronRight, Bell } from 'lucide-react';
-import capa from '../../public/img/Eminem.png';
+import capa from '../../public/img/joaogomes.jpg';
 import iconUser from '../../public/icon/user.svg'
 import HighlightsNight from './HighlightsNight';
 import Cards from './Cards';
 
 const myPrograms = [
   {
-    img: capa,
+    img: '../../public/img/cienciasemfim.jpg',
     name: 'Ciência Sem Fim',
     desc: 'Estúdios Flow'
   },
   {
-    img: capa,
+    img: '../../public/img/podpah.jpeg',
     name: 'PodPah',
     desc: 'Igão e Mitico'
   },
   {
-    img: capa,
+    img: '../../public/img/flow.jpg',
     name: 'Flow Podcast',
     desc: 'Estúdios Flow'
   },
   {
-    img: capa,
-    name: 'Space Today',
-    desc: 'Sergio Sacani'
+    img: '../../public/img/rocket.png',
+    name: 'Rocketseat',
+    desc: 'Programação'
+  },
+]
+
+const playerRecente = [
+  {
+    img: '../../public/img/joaogomes.jpg',
+    name: 'João Gomes',
+    desc: 'Piseiro'
+  },
+  {
+    img: '../../public/img/Eminem.png',
+    name: 'Eminem',
+    desc: 'Rap'
+  },
+  {
+    img: '../../public/img/franksinatra.jpg',
+    name: 'Frank Sinatra',
+    desc: 'Mix jazz'
+  },
+  {
+    img: '../../public/img/israel.jpeg',
+    name: 'Israel Kamakawiwo',
+    desc: 'God vibe'
   },
 ]
 
@@ -51,9 +74,20 @@ function Main() {
       <div className='h-main-card max-w-screen-lg overflow-y-hidden hover:overflow-y-scroll'>
         <HighlightsNight />
         <section className='flex flex-col p-1 mx-4 mb-6'>
-        <h1 className='text-xl text-white font-bold mb-6'>Seus programas</h1>
+          <h1 className='text-xl text-white font-bold mb-6'>Seus programas</h1>
           <div className='flex flex-row gap-6'>
             {myPrograms.map((item, id) => {
+              return (<Cards
+                key={id}
+                img={item.img}
+                name={item.name}
+                desc={item.desc} />)
+            })}</div>
+        </section>
+        <section className='flex flex-col p-1 mx-4 mb-6'>
+          <h1 className='text-xl text-white font-bold mb-6'>Tocadas recentemente</h1>
+          <div className='flex flex-row gap-6'>
+            {playerRecente.map((item, id) => {
               return (<Cards
                 key={id}
                 img={item.img}
