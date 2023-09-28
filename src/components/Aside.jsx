@@ -1,26 +1,25 @@
-import Icon from '../../public/icon/music.svg'
 import { Home, Search, Library, Plus, ChevronDown, ArrowRight } from 'lucide-react'
 
 const musics = [
   {
     name: 'Músicas Curtidas',
-    icon: Icon,
+    icon: '../../public/img/curtidas.jpeg',
     playlist: 'Favoritas',
   }, {
     name: 'Funks Hits',
-    icon: Icon,
+    icon: '../../public/img/funk.jpeg',
     playlist: 'Hits',
   }, {
     name: 'MPB',
-    icon: Icon,
+    icon: '../../public/img/mpb.jpg',
     playlist: 'mais tocadas',
   }, {
     name: 'Frank Sinatra',
-    icon: Icon,
+    icon: '../../public/img/franksinatra.jpg',
     playlist: 'Artista',
   }, {
     name: 'Lil Whind',
-    icon: Icon,
+    icon: '../../public/img/lilwhind.jpg',
     playlist: 'Artista',
   }]
 
@@ -45,7 +44,6 @@ function Aside() {
 
         </div>
       </aside>
-
       <aside className='w-96 h-4/5 rounded-lg bg-aside p-2'>
         <div className='flex flex-col justify-center shadow-md'>
           <div className='flex items-center justify-between m-4'>
@@ -91,21 +89,16 @@ function Aside() {
               Recentes<ChevronDown/></a>
           </div>
         </div>
-
         <div className='h-72 max-w-screen-lg flex flex-col overflow-y-hidden hover:overflow-y-scroll gap-2'>
-
-
           {musics.map((musica, id) => {
             return (
-              <div key={id} className='flex items-center p-1 gap-1 rounded-lg cursor-pointer hover:bg-zinc-800 mx-4'>
-                <img src={musica.icon} className='w-14' alt="music" />
+              <div key={id} className='flex items-center p-1 gap-2 rounded-lg cursor-pointer hover:bg-zinc-900 mx-4'>
+                <img src={musica.icon} className='w-11 rounded-md' alt="music" />
                 <div className='flex flex-col'>
-                  <h1 className='text-base font-bold text-white'>{musica.name}</h1>
-                  <h3 className='text-sm font-semibold' >Playlist {musica.playlist}</h3>
+                  <h1 className='text-base font-semibold text-white mb-1'>{musica.name}</h1>
+                  <h3 className='text-sm font-medium mb-1' >Playlist {musica.playlist}</h3>
                 </div>
-              </div>
-            )
-          })}
+              </div>)})}
         </div>
       </aside>
     </div>
