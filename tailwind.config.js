@@ -16,6 +16,9 @@ export default {
       },
       height: {
         "main-card":"450px"
+      },
+      width: {
+        'highlights':'295px'
       }
     },
   },

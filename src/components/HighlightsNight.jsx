@@ -1,37 +1,37 @@
-import Icon from '../../public/icon/music.svg'
+import capa from '../../public/img/Eminem.png'
 
 const highlights = [
   {
-    img: Icon,
+    img: capa,
     name: 'Ciência Sem fim'
   },
   {
-    img: Icon,
+    img: capa,
     name: 'Nerd Cast'
   },
   {
-    img: Icon,
+    img: capa,
     name: 'Rocketseat'
   },
   {
-    img: Icon,
+    img: capa,
     name: 'Flow Podcast'
   },
   {
-    img: Icon,
+    img: capa,
     name: 'Código Fonte TV'
   },
 ]
 
 function HighlightsNight() {
   return (
-    <section className='flex flex-col p-1 mb-6'>
+    <section className='flex flex-col p-1 mx-4 mb-6'>
       <h1 className='text-3xl text-white font-bold mb-7'>Boa noite</h1>
-      <div className='flex flex-row flex-wrap gap-2'>
+      <div className='flex flex-row flex-wrap gap-3'>
         {highlights.map((programs, id) => {
           return (
-            <div key={id} className='flex flex-row w-72 items-center rounded-lg bg-card hover:bg-zinc-700 duration-500 cursor-pointer'>
-              <img className='w-20' src={programs.img} alt="img-programs" />
+            <div key={id} className='flex flex-row gap-5 w-highlights items-center rounded-md bg-card hover:bg-zinc-700 duration-500 cursor-pointer'>
+              <img className='w-20 rounded-l-md shadow-ft' src={programs.img} alt="img-programs" />
               <h2 className='text-white font-semibold whitespace-nowrap'>{programs.name}</h2>
             </div>
           )
