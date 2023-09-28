@@ -29,19 +29,16 @@ function Aside() {
     <div className='flex flex-col items-center justify-center gap-2'>
       <aside className='w-96 p-2 h-1/5 flex items-center rounded-lg bg-aside'>
         <div className='m-4 flex flex-col gap-6'>
-
           <a href="#"
             className='flex flex-row items-center gap-5 text-base font-bold hover:text-white duration-500'>
             <Home />
             Início
           </a>
-
           <a href="#"
             className='flex flex-row items-center gap-5 text-base font-bold hover:text-white duration-500'>
             <Search />
             Buscar
           </a>
-
         </div>
       </aside>
       <aside className='w-96 h-4/5 rounded-lg bg-aside p-2'>
