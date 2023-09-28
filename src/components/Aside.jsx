@@ -27,7 +27,7 @@ function Aside() {
 
   return (
     <div className='flex flex-col items-center justify-center gap-2'>
-      <aside className='w-96 p-2 h-1/5 flex items-center rounded-lg bg-aside'>
+      <aside className='w-96 h-1/5 flex items-center rounded-lg bg-aside'>
         <div className='m-4 flex flex-col gap-6'>
           <a href="#"
             className='flex flex-row items-center gap-5 text-base font-bold hover:text-white duration-500'>
@@ -41,7 +41,7 @@ function Aside() {
           </a>
         </div>
       </aside>
-      <aside className='w-96 h-4/5 rounded-lg bg-aside p-2'>
+      <aside className='w-96 h-4/5 rounded-lg bg-aside'>
         <div className='flex flex-col justify-center shadow-md'>
           <div className='flex items-center justify-between m-4'>
             <a href="#"
@@ -86,7 +86,7 @@ function Aside() {
               Recentes<ChevronDown/></a>
           </div>
         </div>
-        <div className='h-72 max-w-screen-lg flex flex-col overflow-y-hidden hover:overflow-y-scroll gap-2'>
+        <div className='h-72 max-w-screen-lg flex flex-col overflow-y-hidden hover:overflow-y-scroll gap-1'>
           {musics.map((musica, id) => {
             return (
               <div key={id} className='flex items-center p-1 gap-2 rounded-lg cursor-pointer hover:bg-zinc-900 mx-4'>

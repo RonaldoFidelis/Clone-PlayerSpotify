@@ -18,7 +18,8 @@ export default {
         "main-card":"500px"
       },
       width: {
-        'highlights':'295px'
+        'highlights':'295px',
+        'playerBar':'450px'
       }
     },
   },
