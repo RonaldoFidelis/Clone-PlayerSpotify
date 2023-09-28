@@ -21,9 +21,9 @@
 * **[ Vite ](https://vitejs.dev/)**
 * **[ React.JS ](https://react.dev/)**
 * **[ Node.js ](https://nodejs.org/en)**
-* **[ Taildwindcss ](https://www.mysql.com/)**
-* **[ Postcss ](https://www.mysql.com/)**
-* **[ Vercel ](https://insomnia.rest/)**
+* **[ Taildwindcss ](https://tailwindcss.com/)**
+* **[ Postcss ](#)**
+* **[ Vercel ](https://vercel.com/)**
 
 ## 📝 Maiores aprendizados
 
