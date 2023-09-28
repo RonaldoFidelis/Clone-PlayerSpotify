@@ -93,7 +93,7 @@ function Aside() {
             Recentes<ChevronDown /></a>
         </div>
 
-        <nav className='h-56 flex flex-col flex-nowrap overflow-y-scroll gap-2'>
+        <nav className='h-64 flex flex-col flex-nowrap overflow-y-scroll gap-2'>
           {musics.map((musica, id) => {
             return (
               <div key={id} className='flex items-center p-1 gap-1 rounded-lg cursor-pointer hover:bg-zinc-800'>
