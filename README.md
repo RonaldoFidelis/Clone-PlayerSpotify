@@ -6,7 +6,7 @@
 
 <br>
 
-> Acessar player: <a href="https://clone-player-spotify.vercel.app/" target="_blank">Link</a>
+> Acessar player: <a href="https://clone-player-spotify.vercel.app/" target="_blank" >Link</a>
 
 ## Objetivo
 
