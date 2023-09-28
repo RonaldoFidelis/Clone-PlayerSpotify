@@ -24,7 +24,10 @@ function Main() {
           </div>
         </nav>
       </header>
-      <div className='h-main-card overflow-y-scroll'>
+      <div className='h-main-card overflow-y-hidden hover:overflow-y-scroll'>
+        <HighlightsNight />
+        <HighlightsNight />
+        <HighlightsNight />
         <HighlightsNight />
       </div>
     </main>

@@ -69,7 +69,7 @@ function Aside() {
           </div>
         </div>
 
-        <nav className='flex flex-row flex-nowrap gap-3 overflow-x-scroll m-2 p-1'>
+        <div className='flex flex-row flex-nowrap gap-3 overflow-x-scroll m-2 p-1'>
           <a href="#"
             className='flex items-center justify-center whitespace-nowrap bg-zinc-900 p-3 rounded-full text-white text-xs font-medium hover:bg-zinc-800 duration-500' >
             Playlists</a>
@@ -82,7 +82,7 @@ function Aside() {
           <a href="#"
             className='flex items-center justify-center whitespace-nowrap bg-zinc-900 p-3 rounded-full text-white text-xs font-medium hover:bg-zinc-800 duration-500' >
             Podcasts e programas</a>
-        </nav>
+        </div>
 
         <div className='flex justify-between items-center mb-2'>
           <a href="#"
@@ -93,7 +93,7 @@ function Aside() {
             Recentes<ChevronDown /></a>
         </div>
 
-        <nav className='h-64 flex flex-col flex-nowrap overflow-y-scroll gap-2'>
+        <nav className='h-64 flex flex-col flex-nowrap overflow-y-hidden hover:overflow-y-scroll gap-2'>
           {musics.map((musica, id) => {
             return (
               <div key={id} className='flex items-center p-1 gap-1 rounded-lg cursor-pointer hover:bg-zinc-800'>
