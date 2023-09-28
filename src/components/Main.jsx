@@ -1,5 +1,4 @@
 import { ChevronLeft, ChevronRight, Bell } from 'lucide-react';
-import capa from '../../public/img/joaogomes.jpg';
 import iconUser from '../../public/icon/user.svg'
 import HighlightsNight from './HighlightsNight';
 import Cards from './Cards';
@@ -50,7 +49,6 @@ const playerRecente = [
   },
 ]
 
-
 function Main() {
 
   return (
@@ -96,7 +94,6 @@ function Main() {
             })}</div>
         </section>
       </div>
-
     </main>
   )
 }
