@@ -87,7 +87,7 @@ function Aside() {
               className='flex items-center hover:bg-zinc-800 rounded-full duration-300 p-1'>
               <Search /></a>
             <a href="#"
-              className='flex items-center text-sm font-semibold'>
+              className='flex items-center text-sm font-semibold hover:text-white duration-500'>
               Recentes<ChevronDown/></a>
           </div>
         </div>

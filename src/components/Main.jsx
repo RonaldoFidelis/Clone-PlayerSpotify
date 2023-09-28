@@ -6,7 +6,7 @@ function Main() {
 
   return (
     <main className="flex flex-col flex-1 rounded-lg bg-main px-3 py-0">
-      <nav className='sticky top-0 min-w-full shadow-md  py-2'>
+      <nav className='sticky top-0 min-w-full shadow-md py-2'>
           <div className='flex flex-row items-center justify-between'>
             <div className='flex items-center gap-5'>
               <a href="#" className='flex items-center justify-center hover:bg-card duration-500 rounded-full p-1 mx-auto'><ChevronLeft /></a>
